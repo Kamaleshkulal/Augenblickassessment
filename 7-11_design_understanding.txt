@@ -1,0 +1,83 @@
+
+
+-------------------------------------------- Design understanding (estimated time 5 minutes) -----------------------------------------------
+
+
+7. Short answer question: You have to design a card with React. Which of the two would
+you design. Also write down your reasoning for your answer.
+A) Either A or B
+B) A only
+C) B only
+D) I do not know
+
+Answer : c) B only  
+Reason: In terms of user experience, image B appears magnificent.
+        
+        case 1: In image B, the environment returns larger than in image A. The environment is uniformly associated with the image tag, 
+                making it more prominent.
+        case 2: In image B, housekeeping returns in bold, creating a more impactful subtitle compared to image A.
+        case 3: In image B, the context color is less dim, enhancing readability compared to the subtitle.
+        case 4: In image B, the "posted on 03 May" text aligns with the context color and pixel consistency,
+                reinforcing a cohesive visual presentation.
+    
+    Therefore, image B is fully formatted for an enhanced user experience
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+8. Single correct answer question: What is the name of the React Hook that lets a
+component read the value of a context?
+A) useProvider
+B) useConsumer
+C) useContext
+D) useData          
+
+Answer : C) useContext
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+9. Multiple correct answer question: When selecting and using third-party UI component
+libraries in a React project, what factors should be considered to maintain a consistent
+and user-friendly design?
+A) Assess the library's customization options
+B) Evaluate community support and updates
+C) Consider the library's impact on the overall bundle size
+D) I do not know
+
+Answer : A) Assess the library's customization options // customization
+         B) Evaluate community support and updates //support
+         C) Consider the library's impact on the overall bundle size // impact
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+10. Multiple correct answer question: When optimizing the performance of a React
+application, which strategies can help reduce the bundle size and improve load times?
+A) Code splitting
+B) Tree shaking
+C) Minification
+D) Inline all styles
+E) I do not know
+
+Answer : A) Code splitting
+         B) Tree shaking
+         C) Minification
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+11. Multiple correct answer question: When incorporating internationalization (i18n) in a
+React application, which practices contribute to a better user experience for users from
+diverse linguistic backgrounds?
+A) Use a library like react-intl for message translation
+B) Store translatable strings in separate JSON files
+C) Rely solely on browser-based language detection
+D) Ensure text is not embedded in images for translation flexibility
+E) I do not know
+
+Answer : A) Use a library like react-intl for message translation
+         B) Store translatable strings in separate JSON files
+         D) Ensure text is not embedded in images for translation flexibility
+
+
+---------------------------------------------------------  🙏🏻Thank You 🙏🏻 -------------------------------------------------------------------

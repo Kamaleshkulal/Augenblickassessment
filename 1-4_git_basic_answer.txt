@@ -1,0 +1,74 @@
+
+-------------------------------------------- Git basics (estimated time required 5 minutes) -----------------------------------------------
+
+1. Single correct answer question: What command is used to rewrite commit history and
+maintain a linear project history by incorporating changes from one branch into another?
+A) git merge
+B) git rebase
+C) git commit
+D) git log
+
+Answer : B) git rebase
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2. Single correct answer question: To selectively apply a specific commit from one branch
+to another, which Git command should be used?
+A) git commit --cherry-pick
+B) git revert
+C) git branch
+D) git apply
+
+Answer : A) git commit --cherry-pick
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Single correct answer question: Which Git command facilitates the creation of multiple
+isolated working directories for the same repository?
+A) git switch
+B) git branch
+C) git worktree
+D) git clone
+
+Answer : C) git worktree
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+4. Short answer question: You encounter a merge conflict while merging a feature branch
+into the main branch. How will you address it. Write the git commands in appropriate
+order.
+
+Answer :
+
+Step 1: to check target/Main branch
+      git checkout main // here  we will check the target branch 
+
+Step 2: Pull the Changes from the Main Branch:
+       git pull origin main // Pull the Latest  Changes from the Main Branch 
+
+Step 3: Checkout the Feature Branch
+       git checkout feature-branch // checkout the feature branch      
+
+Step 4 : Rebase onto the Main Branch
+        git rebase main
+
+Step 5 : Mark Conflicts as Resolved
+        git add <conflicted-file1> <conflicted-file2> <conflicted-file3>...
+
+Step 6 : Continue the Rebase:
+       git rebase --continue. //Continue the rebase process once the conflicts are resolved
+
+Step 7 : Repeat Step 1 // to check main or target branch
+
+Step 8: merge the changes from feature branch to the main branch
+        git merge feature-branch
+
+Step 9: push the Latest Changes to remote repository
+        git push origin main
+
+here conflicted are represented by the `(<<<<<<<, =======, >>>>>>>)` please try to  edit or correct it mannually 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
